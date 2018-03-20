@@ -251,9 +251,9 @@ auto_excerpt:
 post_meta:
   item_text: true
   created_at: true
-  updated_at: false
+  updated_at: true
   # Only show 'updated' if different from 'created'.
-  updated_diff: false
+  updated_diff: true
   categories: true
 
 # Post wordcount display settings
