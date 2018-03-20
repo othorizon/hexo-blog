@@ -9,7 +9,7 @@ tags:
 
 ## 测试1
 
-![图片测试](15018163685387.png)
+![图片测试](/assets/images/test/15018163685387.png)
 
 ``` bash
 hexo server
