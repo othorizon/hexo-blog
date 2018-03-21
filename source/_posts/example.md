@@ -17,11 +17,44 @@ echo hello_world
 图片测试2
 ![图片测试2](/assets/images/example/test2.jpg)
 
-引言
+---
+
+参考 [Hexo+markdown优雅写博客](https://biueo.github.io/2018/01/11/Hexo-markdown%E4%BC%98%E9%9B%85%E5%86%99%E5%8D%9A%E5%AE%A2/)
+
+标签
 {% blockquote author http://rizon.top %}
 地平线上
 hello world
 {% endblockquote %}
+{% centerquote %}blah blah blah{% endcenterquote %}
+
+<div class="note success"><p>success</p></div>
+
+{% note info %} info [内置标签 - NexT 使用文档](http://theme-next.iissnan.com/tag-plugins.html) {% endnote %}
+{% note warning %} warning {% endnote %}
+
+{% label default@default %}
+{% label primary@primary %}
+{% label success@success %}
+{% label info@info %}
+{% label warning@warning %}
+{% label danger@danger %}
+
+{% tabs 选项卡, 2 %}名字为选项卡，默认在第二个选项卡，如果是-1则隐藏
+<!-- tab -->
+**这是选项卡 1** 哈哈哈
+<!-- endtab -->
+<!-- tab -->
+**这是选项卡 2**
+<!-- endtab -->
+<!-- tab -->
+**这是选项卡 3** 哇，你找到我了！φ(≧ω≦*)♪～，哈哈哈哈哈哈哈哈，{% label info@好无聊啊我…… %}
+<!-- endtab -->
+{% endtabs %}
+
+引用
+>123456
+qwertyu
 
 表格
 
