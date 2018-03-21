@@ -35,7 +35,7 @@ git remote set-url origin --push --add git@github.com:example/example.git
  使用时修改文件之后只需要正常的执行`git push`便会向两个目标仓库都推送一遍。
 
 **另外**
-不推荐在镜像仓库修改文件，但是如果真的在镜像仓库修改了文件而需要同步到原始仓库，那么先`git pull coding`获取镜像仓库的最新代码，然后`check out origin master` ,然后在merge代码过来。具体可以借鉴[Syncing a fork](https://help.github.com/articles/syncing-a-fork/)GitHub官网的fork代码同步的操作步骤，
+不推荐在镜像仓库修改文件，但是如果真的在镜像仓库修改了文件而需要同步到原始仓库，那么先`git pull coding`获取镜像仓库的最新代码，然后`check out origin master` ,然后在merge代码过来。具体可以借鉴[Syncing a fork](https://help.github.com/articles/syncing-a-fork/)GitHub官网的fork代码同步的操作步骤，
 
 **参考**
 [git push如何至两个git仓库 - SegmentFault 思否](https://segmentfault.com/q/1010000000646988)
