@@ -77,10 +77,12 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:othorizon/othorizon.github.io.git
-  branch: master
-
+ - type: git
+   repo: git@github.com:othorizon/othorizon.github.io.git
+   branch: master
+ - type: git
+   repo: git@git.coding.net:rizon/hexo-blog-page.git
+   branch: master
 # search
 search:
   path: search.xml
