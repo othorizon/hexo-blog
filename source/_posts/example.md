@@ -13,11 +13,13 @@ echo hello_world
 ```
 
 <!-- more -->
+# 图片
 
 图片测试2
 ![图片测试2](/assets/images/example/test2.jpg)
 
 ---
+# tag
 
 参考 [Hexo+markdown优雅写博客](https://biueo.github.io/2018/01/11/Hexo-markdown%E4%BC%98%E9%9B%85%E5%86%99%E5%8D%9A%E5%AE%A2/)
 
@@ -63,3 +65,11 @@ Column A | Column B | Column C
  A1 | B1 | C1
  A2 | B2 | C2
  A3 | B3 | C3
+
+ ---
+
+# 参考
+
+ [望川秋酷](https://biueo.github.io/)
+ [Raincal's Blog](https://raincal.com/)
+ [hexo的next主题个性化教程：打造炫酷网站](http://blog.csdn.net/qq_33699981/article/details/72716951)
