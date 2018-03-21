@@ -108,9 +108,9 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
+  archives: /archives/ || archive
   categories: /categories/ || th
   tags: /tags/ || tags
-  archives: /archives/ || archive
   about: /about/ || user
   # schedule: /schedule/ || calendar
   # sitemap: /sitemap.xml || sitemap
@@ -127,9 +127,9 @@ menu_settings:
 
 # Schemes
 # scheme: Muse
-scheme: Mist
+# scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -144,9 +144,9 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-#social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
+social:
+  GitHub: aHR0cHM6Ly9naXRodWIuY29tL290aG9yaXpvbg== || github
+  E-Mail: bWFpbHRvOnN1cHBvcnRAcml6b24ud29yaw== || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -158,12 +158,12 @@ site_state: true
 
 social_icons:
   enable: true
-  icons_only: false
+  icons_only: true
   transition: false
   # Dependencies: exturl: true in Tags Settings section below.
   # To encrypt links above use https://www.base64encode.org
   # Example encoded link: `GitHub: aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQ= || github`
-  exturl: false
+  exturl: true
 
 # Follow me on GitHub banner in right-top corner.
 # Usage: `permalink || title`
@@ -182,7 +182,7 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-#avatar: /images/avatar.gif
+avatar: /apple-touch-icon.png
 
 # Table Of Contents in the Sidebar
 toc:
@@ -219,10 +219,10 @@ sidebar:
   offset: 12
 
   # Back to top in sidebar (only for Pisces | Gemini).
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: false
@@ -704,7 +704,7 @@ bookmark:
 # External URL with BASE64 encrypt & decrypt.
 # Usage: {% exturl text url "title" %}
 # Alias: {% extlink text url "title" %}
-exturl: false
+exturl: true
 
 # Note tag (bs-callout).
 note:
