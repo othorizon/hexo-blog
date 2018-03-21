@@ -20,7 +20,7 @@ tags: git
 1. 在git仓库根目录执行
 `git remote add --mirror=push coding git@git.coding.net:example/example.git`,添加一个镜像仓库，用来初始化镜像仓库数据或者pull镜像仓库数据时使用。
 {% note info %}
-对镜像仓库push数据时相当于执行`git push --mirror`，**会强制覆盖仓库中的数据** ，会以镜像的方式把包括所有分支和历史的commit提交到目标仓库
+对镜像仓库push数据时相当于执行`git push --mirror`，**会强制覆盖仓库中的数据** ，会以镜像的方式把包括所有分支和历史的commit提交到目标仓库
 {% endnote %}
 2. 执行
 ```bash
