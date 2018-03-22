@@ -5,7 +5,7 @@ tags: []
 date: 2018-03-22 15:34:25
 updated: 2018-03-22 15:34:25
 type: picture
-sticky: 1
+sticky: 100
 ---
 
 博客更新计划
