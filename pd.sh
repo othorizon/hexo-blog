@@ -10,4 +10,4 @@ fi
 git pull
 git acm "${mes}"
 git push
-hexo d -g
+hexo d -g -m "${mes}"
