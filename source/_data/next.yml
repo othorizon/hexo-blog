@@ -449,7 +449,7 @@ disqus:
   lazyload: false
 
 # Hypercomments
-# hypercomments_id: 102863
+# hypercomments_id:
 
 # changyan
 changyan:
@@ -475,11 +475,11 @@ valine:
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
-# youyan_uid: 2159661
+# youyan_uid: your uid
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+# livere_uid: your uid
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/

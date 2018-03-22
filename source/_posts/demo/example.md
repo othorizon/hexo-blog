@@ -4,7 +4,7 @@ date: 2018-03-15 23:29:21
 updated: 2018-03-20 11:50:20
 categories: demo
 tags: [demo]
-image: /assets/images/example/test1.jpg #首页图片
+image: https://ws1.sinaimg.cn/large/7dc65329ly1fpm47t18cdj20s60lwdix.jpg #首页图片
 description: "" #有内容的描述会代替readmore
 sticky: 
 ---

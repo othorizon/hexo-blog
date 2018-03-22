@@ -15,4 +15,4 @@ sticky: 100
 - [ ] npm的配置
 - [ ] SpringBoot之路
 
-<img src="/assets/images/todo/hello.png" \>
+<img src="https://ws1.sinaimg.cn/large/7dc65329ly1fpm40mq2hzj20k00avqch.jpg" \>

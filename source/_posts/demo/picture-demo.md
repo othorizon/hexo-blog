@@ -8,5 +8,5 @@ tags: [picture,demo]
 sticky:
 ---
 {% gp 1-1 %}
-![](/assets/images/picture-demo/wl-op-11s.jpg)
+![wlop](https://ws1.sinaimg.cn/large/7dc65329ly1fpm41hws7zj20xc0klqbq.jpg)
 {% endgp %}
