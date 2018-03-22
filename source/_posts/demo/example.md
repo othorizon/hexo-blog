@@ -6,15 +6,19 @@ categories: demo
 tags: [demo]
 image: /assets/images/example/test1.jpg #首页图片
 description: "" #有内容的描述会代替readmore
+sticky: 
 ---
 
 **各种博客的写作方法demo**
 <!-- more -->
 
-``` bash
+``` bash hello world example1
 echo hello_world
 ```
 
+{% codeblock hello world example2 lang:bash%}
+echo hello_world
+{% endcodeblock %}
 
 # 图片
 
