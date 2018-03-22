@@ -3,7 +3,7 @@ title: 示例页面
 date: 2018-03-15 23:29:21
 updated: 2018-03-20 11:50:20
 categories: demo
-tags: demo
+tags: [demo]
 image: /assets/images/example/test1.jpg #首页图片
 description: "" #有内容的描述会代替readmore
 ---

@@ -1,5 +1,6 @@
 #!/bin/bash
 #set -ex
+set -x
 
 mes=$1
 if [ -z "${mes}" ]; then
