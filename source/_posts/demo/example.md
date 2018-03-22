@@ -119,6 +119,6 @@ description: 这是一篇测试文章，用于测试Hexo文章文件头。
  [disqus代理/disqus-proxy-docker](https://github.com/Raincal/disqus-proxy-docker)
 
 ## 强烈推荐
-
+ [【搜索优化】Hexo-next百度和谷歌搜索优化](http://www.ehcoo.com/seo.html)
  [【转】Blog摘要配图](http://wellliu.com/2016/12/30/%E3%80%90%E8%BD%AC%E3%80%91Blog%E6%91%98%E8%A6%81%E9%85%8D%E5%9B%BE/)
  [biueo/hexo_website_code/Hexo部分优化.md](https://github.com/biueo/hexo_website_code/blob/master/source/_posts/Hexo%E9%83%A8%E5%88%86%E4%BC%98%E5%8C%96.md)
