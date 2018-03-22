@@ -113,4 +113,6 @@ description: 这是一篇测试文章，用于测试Hexo文章文件头。
 
  [打造个性超赞博客Hexo+NexT+GithubPages的超深度优化](https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html)
 
+## 强烈推荐
  [【转】Blog摘要配图](http://wellliu.com/2016/12/30/%E3%80%90%E8%BD%AC%E3%80%91Blog%E6%91%98%E8%A6%81%E9%85%8D%E5%9B%BE/)
+ [biueo/hexo_website_code/Hexo部分优化.md](https://github.com/biueo/hexo_website_code/blob/master/source/_posts/Hexo%E9%83%A8%E5%88%86%E4%BC%98%E5%8C%96.md)
