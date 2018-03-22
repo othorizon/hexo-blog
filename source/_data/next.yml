@@ -449,7 +449,7 @@ disqus:
   lazyload: false
 
 # Hypercomments
-#hypercomments_id:
+# hypercomments_id: 102863
 
 # changyan
 changyan:
@@ -465,9 +465,9 @@ valine:
   enable: true
   appid: Pm5Yuxgf2hAy1ddkr0DcfMie-gzGzoHsz # your leancloud application appid
   appkey: 3iuz8w8VAIpvmc1uH5UFE10H # your leancloud application appkey
-  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  notify: true # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
-  placeholder: 嗯哼～ヾ(*・-・)ﾂθ # comment box placeholder
+  placeholder: 嗯哼～ヾ(*・-・)ﾂθ 填写邮箱可收到回复通知 # comment box placeholder
   avatar: hide # gravatar style
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
@@ -475,7 +475,7 @@ valine:
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
-#youyan_uid: your uid
+# youyan_uid: 2159661
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
