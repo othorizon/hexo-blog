@@ -8,12 +8,20 @@ keywords: hexo优化,seo,博客优化,网站优化,网站seo
 description:
 ---
 
+- [HTTP vs HTTPS 对SEO的影响](#http-vs-https-%E5%AF%B9seo%E7%9A%84%E5%BD%B1%E5%93%8D)
 - [加载速度](#%E5%8A%A0%E8%BD%BD%E9%80%9F%E5%BA%A6)
     - [图片格式选择与压缩图片](#%E5%9B%BE%E7%89%87%E6%A0%BC%E5%BC%8F%E9%80%89%E6%8B%A9%E4%B8%8E%E5%8E%8B%E7%BC%A9%E5%9B%BE%E7%89%87)
         - [压缩图片是最简单的方法，在线图片压缩](#%E5%8E%8B%E7%BC%A9%E5%9B%BE%E7%89%87%E6%98%AF%E6%9C%80%E7%AE%80%E5%8D%95%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%8C%E5%9C%A8%E7%BA%BF%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9)
         - [选择一个合适的图片格式](#%E9%80%89%E6%8B%A9%E4%B8%80%E4%B8%AA%E5%90%88%E9%80%82%E7%9A%84%E5%9B%BE%E7%89%87%E6%A0%BC%E5%BC%8F)
 
 <!-- more -->
+
+# HTTP vs HTTPS 对SEO的影响
+
+{% blockquote 百度站长 https://ziyuan.baidu.com/wiki/392 百度开放收录https站点公告 %}
+百度搜索引擎认为权值相同的站点，采用https协议的页面更加安全，排名上会优先对待
+{% endblockquote %}
+[HTTP vs HTTPS 对SEO的影响？ - 知乎](https://www.zhihu.com/question/20537944)
 
 # 加载速度
 
