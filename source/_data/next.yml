@@ -927,7 +927,7 @@ vendors:
 
   # valine comment
   # Example: https://cdn.jsdelivr.net/npm/valine@1.1.8/dist/Valine.min.js
-  valine:
+  valine: https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
 
 
 # Assets
