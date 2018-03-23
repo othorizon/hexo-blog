@@ -107,6 +107,7 @@ description: 这是一篇测试文章，用于测试Hexo文章文件头。
 
 # 参考
 
+ [浅析静态博客程序的优点与不足](http://www.360doc.com/content/15/0113/22/8314158_440549795.shtml)
  [Font Awesome](https://fontawesome.com/)
  [望川秋酷](https://biueo.github.io/)
  [Raincal's Blog](https://raincal.com/)
