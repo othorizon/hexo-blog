@@ -42,7 +42,9 @@ description: 极路由安装ss代理,路由器配置ss代理,ps4配置ss代理,p
 具体步骤如下：
 
 1. 首先登陆极路由的服务器，mac或linux用户ssh登陆就好了，如果Windows用户可以下载[xshell](https://www.netsarang.com/download/down_form.html?code=522)来登陆
- {% note info %}“xshell”官网是提供免费版的，如果官网看不明白也可以百度下载一个然后安装就好了{% endnote %}
+ {% note info %}
+ “xshell”官网是提供免费版的，如果官网看不明白也可以百度下载一个然后安装就好了
+ {% endnote %}
  使用“xshell”或者终端输入命令`ssh root@192.168.199.1 -p 1022`登陆后台,如果报错可以试下`ssh root@192.168.199.1 1022`
 登陆密码就是你的路由器后台管理页面的登陆密码（不是wifi密码）
 2. 登陆之后输入以下命令执行,这个是安装ss服务的
