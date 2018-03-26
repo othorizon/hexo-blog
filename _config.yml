@@ -89,3 +89,8 @@ search:
   field: post
   format: html
   limit: 10000
+nofollow:
+	enable: true
+	exclude:
+    - rizon.top
+    - www.rizon.top
