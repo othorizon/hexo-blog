@@ -65,7 +65,7 @@ cd /tmp && curl -k -o shadow.sh https://raw.githubusercontent.com/qiwihui/hiwifi
 ss可以通过购买，或者自己搭建ss服务两种方式，不是本文重点不在这里做介绍了，
 注意区分ss和ssr，ssr可以兼容ss，但是ss是无法使用ssr的
 {% endnote %}
-配置好后如果显示“连接正常”就说明是ok的，这时候打开网页试试能不能连通世界了，或者打开[ip.cn](ip.cn)看看ip地址是不是外面的ip
+配置好后如果显示“连接正常”就说明是ok的，这时候打开网页试试能不能连通世界了，或者打开[ip.cn](https://ip.cn/)看看ip地址是不是外面的ip
 ![安全上网](https://i.loli.net/2018/03/26/5ab8ad20935b8.png)
 
 以上都ok的话，那么恭喜你，你已经可以向世界说“hello world”了，
