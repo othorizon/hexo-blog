@@ -65,3 +65,61 @@ mock接口就是模拟接口的意思。
     }
 ]
 ```
+
+### 实际使用的示例
+
+```bash
+$ tree
+.
+├── foo.json
+├── log.log
+├── moco-runner-0.11.1-standalone.jar
+├── settings.json
+├── shutdown.sh
+└── start.sh
+
+$ cat start.sh
+java -jar moco-runner-0.11.1-standalone.jar http -p 8100 -s 8101 -c settings.json > log.log &
+
+$ cat shutdown.sh
+java -jar moco-runner-0.11.1-standalone.jar shutdown -s 8101
+```
+
+```json settings.json
+[
+    {
+        "request": {
+            "uri": "/activiti/thrid/calApi"
+        },
+        "response": {
+            "json": {
+                "code": 200,
+                "message": "模拟计费成功"
+            }
+        }
+    },
+    {
+        "request": {
+            "uri": "/api/bossConvertAll"
+        },
+        "response": {
+            "json": {
+                "code": 200,
+                "message": "转换成功",
+                "requestId": "cg2uAs3P"
+            }
+        }
+    }
+]
+```
+
+```json foo.json
+[
+  {
+    "response" :
+      {
+        "text" : "foo"
+      }
+  }
+]
+```
