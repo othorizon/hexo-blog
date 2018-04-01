@@ -107,8 +107,8 @@ description: 这是一篇测试文章，用于测试Hexo文章文件头。
 
 # 参考
 
+[Next主题个性化之自动更换背景图片 - CSDN博客](https://blog.csdn.net/mango_haoming/article/details/78473243)
 **[打造个性超赞博客Hexo+NexT+GithubPages的超深度优化](https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html)**
-
 
 [【搜索优化】Hexo-next百度和谷歌搜索优化](http://www.ehcoo.com/seo.html)
 [【转】Blog摘要配图](http://wellliu.com/2016/12/30/%E3%80%90%E8%BD%AC%E3%80%91Blog%E6%91%98%E8%A6%81%E9%85%8D%E5%9B%BE/)
