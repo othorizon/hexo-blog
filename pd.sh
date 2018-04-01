@@ -7,6 +7,8 @@ if [ -z "${mes}" ]; then
 echo mesaage is empty;
 exit 1
 fi
+
+hexo clean
 git pull
 git acm "${mes}"
 git push
