@@ -3,7 +3,7 @@ title: 在线工具
 date: 2018-03-20 00:43:10
 ---
 
-<script src="http://gist.rizon.top/othorizon/3fc35badb768dc431736e433f9b219f3.js"></script>
+<script src="https://gist.rizon.top/othorizon/3fc35badb768dc431736e433f9b219f3.js"></script>
 
 
 
