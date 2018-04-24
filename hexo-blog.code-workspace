@@ -5,6 +5,6 @@
 		}
 	],
 	"settings": {
-		"pasteImage.path": "../assets/images"
+		"pasteImage.path": "../../assets/images"
 	}
 }

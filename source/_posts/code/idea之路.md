@@ -20,6 +20,21 @@ description:
 idea是博主最爱没有之一的开发工具，应该说jetbrains的开发工具都是非常棒的，idea的新特性在不停的增加，每次阅读更新日志都是一种享受像发现了新的玩具，2018年4月23这一天，本人决定开始记录idea使用过程中一些有价值的东西
 有些更新的特性可能不是严格按照idea本身的版本来编排的，主要是按照博主本人发现这个特性的时间来编写,文档从2018年4月23开始编写，会逐步补充该时间之前的一些内容
 
+# 技巧
+
+## @NotNull Annotations
+
+[Annotating Source Code - Help | IntelliJ IDEA](https://www.jetbrains.com/help/idea/annotating-source-code.html)
+
+idea有一个`annotation.jar`提供了一些有帮助的注解，其中包括了`@NotNull`检查的注解,
+该注解与lombok的`@NonNull`注解类似，会在编译代码时增加一个空指针检查，但是比lombok好的地方在于配合idea开发工具，会直接在开发界面提示空指针错误，以及在`inspect code`时提示可能的bug
+
+![annotation-1](../../assets/images/code/idea/annotation-1.png)
+如图所示，idea的非空注解会有inspection的提示
+![annotation-2](../../assets/images/code/idea/annotation-2.png)
+执行`Analyze->Inspect Code`后也会得到bug提示
+
+---
 
 # 新特性
 
