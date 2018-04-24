@@ -1,7 +1,7 @@
 ---
 title: hexo优化
 categories: tech
-tags: []
+tags: [hexo]
 date: 2018-03-23 11:42:17
 updated: 2018-03-23 11:42:17
 keywords: hexo优化,seo,博客优化,网站优化,网站seo
