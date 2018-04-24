@@ -8,7 +8,7 @@ keywords: mac app推荐,mac awesome
 description:
 ---
 
-- [app awesome](#app-awesome)
+- [App Awesome](#app-awesome)
 
 <!-- more -->
 
@@ -16,7 +16,7 @@ description:
 
 <script src="//cdn.bootcss.com/markdown.js/0.5.0/markdown.min.js"></script>
 
-# app awesome
+# App Awesome
 
 [source](https://github.com/othorizon/MacAwesome/blob/master/app.md)
 <div id="appAwesome">
