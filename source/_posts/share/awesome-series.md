@@ -24,8 +24,6 @@ description:
 </div>
 ---
 
-</html>
-
 <script type="text/javascript">
     let xmlHttpRequest;
     function createXmlHttpRequest() {
