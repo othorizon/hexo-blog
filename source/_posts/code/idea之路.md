@@ -1,7 +1,7 @@
 ---
 title: IntelliJ IDEA 之路
-categories: tech
-tags: [idea]
+categories: code
+tags: [code,idea]
 date: 2018-04-23 12:09:19
 updated: 2018-04-23 12:09:19
 keywords: idea,IntelliJ IDEA 设置
