@@ -74,6 +74,10 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next
 
+# markdown render
+marked:
+  modifyAnchors: 1
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
