@@ -14,7 +14,7 @@ description:
 
 ---
 
-<script src="http://cdn.bootcss.com/markdown.js/0.5.0/markdown.min.js"></script>
+<script src="//cdn.bootcss.com/markdown.js/0.5.0/markdown.min.js"></script>
 
 # app awesome
 
