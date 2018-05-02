@@ -6,7 +6,7 @@ updated: 2018-03-21 22:17:09
 tags: git
 ---
 
-- [git配置多个远程仓库](#git%E9%85%8D%E7%BD%AE%E5%A4%9A%E4%B8%AA%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93)
+- [git配置多个远程仓库](#git配置多个远程仓库)
 
 <!-- more -->
 
@@ -33,6 +33,20 @@ git remote set-url origin --push --add git@github.com:example/example.git
 3. 第一次设置后先执行`git push coding`把origin的代码镜像到coding仓库
 4. 使用
  使用时修改文件之后只需要正常的执行`git push`便会向两个目标仓库都推送一遍。
+
+```git git config
+[remote "origin"]
+        url = git@github.com:example/example.git
+        fetch = +refs/heads/*:refs/remotes/origin/*
+        pushurl = git@git.coding.net:example/example.git
+        pushurl = git@github.com:example/example.git
+[branch "master"]
+        remote = origin
+        merge = refs/heads/master
+[remote "coding"]
+        url = git@git.coding.net:example/example.git
+        mirror = true
+```
 
 **另外**
 不推荐在镜像仓库修改文件，但是如果真的在镜像仓库修改了文件而需要同步到原始仓库，那么先`git pull coding`获取镜像仓库的最新代码，然后`check out origin master` ,然后在merge代码过来。具体可以借鉴[Syncing a fork](https://help.github.com/articles/syncing-a-fork/)GitHub官网的fork代码同步的操作步骤，
