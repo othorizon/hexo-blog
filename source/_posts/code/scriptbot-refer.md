@@ -28,12 +28,85 @@ description: scriptbot是一个采用sring boot框架开发的脚本批处理工
 
 ## 前端
 
+### 零碎
+
+**_.debounce**
+_.debounce 用于限制函数的访问频率，在Underscore和loadash库中均有。
+[浅谈 Underscore.js 中 _.throttle 和 _.debounce](https://blog.coding.net/blog/the-difference-between-throttle-and-debounce-in-underscorejs)
+
+```html
+<!-- 一个在vue中监控变量值变化的例子 -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/underscore.js/1.9.0/underscore-min.js"></script>
+<div id="app">
+    <input v-model="question">
+</div>
+<script>
+var vm = new Vue({
+      el: '#app',
+      data: {
+      question: ""
+      });
+var log=_.debounce(function () {
+    console.log("changed");
+   },500);
+vm.$watch('question', function() {
+    console.log('wating');
+  log();
+});
+</script>
+```
+
+---
+
+**js中的箭头函数和匿名函数：**
+以`this`为例子，
+对于普通函数（包括匿名函数），this指的是直接的调用者，在非严格模式下，如果没有直接调用者，this指的是window。
+箭头函数是没有自己的this，在它内部使用的this是由它定义的宿主对象决定。
+[Vue实例里this的使用](https://majing.io/posts/10000005341170)
+
+{% blockquote vue官方文档 https://cn.vuejs.org/v2/guide/instance.html#实例生命周期钩子 %}
+不要在选项属性或回调上使用箭头函数，比如 `created: () => console.log(this.a)` 或 `vm.$watch('a', newValue => this.myMethod())`。因为箭头函数是和父级上下文绑定在一起的，this 不会是如你所预期的 Vue 实例，经常导致 Uncaught TypeError: Cannot read property of undefined 或 Uncaught TypeError: this.myMethod is not a function 之类的错误。
+{% endblockquote %}
+
 ### 跨域请求 携带cookie
 
 [Angularjs之如何在跨域请求中传输Cookie](https://blog.csdn.net/mygrilzhuyulin/article/details/52690129)
 [跨域Ajax请求时是否带Cookie的设置 - CSDN博客](https://blog.csdn.net/wzl002/article/details/51441704)
 [解决cookie跨域访问 - 小眼儿 - 博客园](https://www.cnblogs.com/hujunzheng/p/5744755.html)
 **服务器端 Access-Control-Allow-Credentials = true时，参数Access-Control-Allow-Origin 的值不能为 '*'**
+
+### js css 前端特效动画
+
+#### 特效站点
+
+[网页特效库-html5 css3动画-banner特效-jquery特效代码](http://www.5iweb.com.cn/)
+[CircularProgressButton](https://tympanus.net/Tutorials/CircularProgressButton/)
+[Tutorialzine](https://tutorialzine.com/)
+
+[Shape Shifter-文字粒子特效-支持各种命令的粒子特效](http://www.kennethcachia.com/shape-shifter/)
+
+**impress.js 可以制作出类似prezi.com中的一张大图的幻灯片效果**
+[impress/impress.js](https://github.com/impress/impress.js)
+
+### 前端工具
+
+[入门Webpack，看这篇就够了](https://www.jianshu.com/p/42e11515c10f)
+
+- node , 是javascript语言的环境和平台，
+- npm , bower, yarn 是一类，包管理，
+- webpack , browserify , rollup是一类，javascript模块打包方案(方案+工具+插件)，
+- babel , 编译(compiler)下一代的ES语法的插件- requirejs , seajs , 是一类, 基于commonjs，amd，cmd，umd 之类的模块类包加载方案的框架，
+- grunt , gulp , 前端工具，结合插件，合并、压缩、编译 sass/less，browser 自动载入资源，
+- react , angular , vue , backbone , 是一类，mvc , mvvm , mvp 之类的前端框架，
+- jquery , zepto , prototype , 是一类，前端 DOM , BOM 类库 ，
+- ext , yui , kissy , dojo , 是一类，前端应用组件，
+- lodash , underscore , 函数式编程库。
+
+作者：山茶树和葡萄树
+链接：https://www.zhihu.com/question/37694275/answer/113609266
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 ## 后端
 

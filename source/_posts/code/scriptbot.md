@@ -18,3 +18,25 @@ ScriptBot 是一个采用sring boot框架开发的 脚本批处理工具，是�
 <!-- more -->
 
 ---
+
+## 前端开发
+
+### 零碎
+
+如何让div成为背景层
+
+```html
+<div style="position:absolute;z-index:-1;width: 100%;height: 100%" >
+</div>
+```
+
+判断一个变量是否存在，如果没有就给他一个初始值
+
+```javascript
+var attr = attr || "";
+
+function Foo(option) {
+    var defaultValue = option || {};
+}
+Foo();
+```
