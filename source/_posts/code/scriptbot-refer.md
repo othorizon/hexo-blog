@@ -91,7 +91,12 @@ vm.$watch('question', function() {
 
 ### 前端工具
 
+#### 资料
+
 [入门Webpack，看这篇就够了](https://www.jianshu.com/p/42e11515c10f)
+[入门 Webpack，看这篇就够了 - 前端学习笔记 - SegmentFault 思否](https://segmentfault.com/a/1190000006178770)
+
+---
 
 - node , 是javascript语言的环境和平台，
 - npm , bower, yarn 是一类，包管理，
@@ -103,10 +108,9 @@ vm.$watch('question', function() {
 - ext , yui , kissy , dojo , 是一类，前端应用组件，
 - lodash , underscore , 函数式编程库。
 
-作者：山茶树和葡萄树
-链接：https://www.zhihu.com/question/37694275/answer/113609266
-来源：知乎
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+来源：https://www.zhihu.com/question/37694275/answer/113609266
+
+---
 
 ## 后端
 
