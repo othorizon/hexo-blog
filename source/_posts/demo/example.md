@@ -31,7 +31,11 @@ echo hello_world
 参考 [Hexo+markdown优雅写博客](https://biueo.github.io/2018/01/11/Hexo-markdown%E4%BC%98%E9%9B%85%E5%86%99%E5%8D%9A%E5%AE%A2/)
 
 标签
-{% blockquote author http://rizon.top %}
+{% blockquote author http://rizon.top rizon的博客%}
+地平线上
+hello world
+{% endblockquote %}
+{% blockquote author http://rizon.top%}
 地平线上
 hello world
 {% endblockquote %}
