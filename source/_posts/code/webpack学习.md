@@ -19,7 +19,7 @@ webpack学习中遇到的问题
 
 ## webpack是什么
 
-webpack是一个JavaScript应用的静态模块打包器，除了会把通过`import`导入的模块打包成一个或多个bundle，还可以打包资源文件等等。
+webpack是一个JavaScript应用的静态模块打包器，除了会把通过`import`导入的模块打包成一个或多个bundle，还可以打包资源文件等等。
 借由插件还可以实现更多的功能，比如优化压缩代码、定义环境变量等等。
 
 webpack会通过一个*依赖关系图*将应用程序所需的模块打包。
@@ -29,7 +29,7 @@ webpack从命令行或配置文件中定义的*入口起点*开始，递归一�
 
 webpack 的配置文件(`webpack.config.js`)，是导出一个对象的 JavaScript 文件。通过该配置文件来实现各种打包参数的配置。
 
-通过webpack与npm的包管理，我们可以形成一套更加标准化的前端开发流程。
+通过webpack与npm的包管理，我们可以形成一套更加标准化的前端开发流程。
 
 ## 开发环境和线上环境的配置文件分离
 
@@ -90,7 +90,7 @@ console.log('process.env.ENV_NAME:' process.env.ENV_NAME);
 console.log('my.env.NODE_ENV:' my.env.NODE_ENV);
 ```
 
-经过以上配置后，在调用webpack时指定config文件既可以区分不同的环境`npx webpack --config webpack.dev.js`。
+经过以上配置后，在调用webpack时指定config文件既可以区分不同的环境`npx webpack --config webpack.dev.js`。
 通过配置npm的package.json中的脚本可以简化这一步骤
 
 ```json package.json
