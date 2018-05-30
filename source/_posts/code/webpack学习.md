@@ -11,7 +11,8 @@ webpack学习中遇到的问题
 
 - [webpack是什么](#webpack是什么)
 - [开发环境和线上环境的配置文件分离](#开发环境和线上环境的配置文件分离)
-    - [命令行传入参数](#命令行传入参数)
+  - [命令行传入参数](#命令行传入参数)
+- [external 外部扩展](#external-外部扩展)
 - [tree shaking 不起作用](#tree-shaking-不起作用)
 - [参考](#参考)
 
@@ -43,7 +44,7 @@ webpack 的配置文件(`webpack.config.js`)，是导出一个对象的 JavaScri
 参考[DefinePlugin](https://www.webpackjs.com/plugins/define-plugin/)
 {% endnote %}
 
-在代码中可以直接调用process.env的值以及 webpack.DefinePlugin 中定义的变量
+在代码中可以直接调用process.env的值以及 webpack.DefinePlugin 中定义的变量。变量是在打包时通过做文本替换来实现的，打包后就是直接使用变量值来呈现了。
 
 ```bash 目录结构
 webpack-demo
@@ -142,6 +143,16 @@ module.exports = function (env) {
   )
 };
 ```
+
+## external 外部扩展
+
+externals 配置 防止将某些 import 的包(package)打包到 bundle 中，而是在运行时(runtime)再去从外部获取这些扩展依赖。
+例如 我们开发了一个自己的库，里面引用了lodash这个包，经过webpack打包的时候，发现如果把这个lodash包打入进去，打包文件就会非常大。那么我们就可以externals的方式引入。也就是说，自己的库本身不打包这个lodash，需要用户环境提供。
+externals属性是一个由key-value组成的对象，key值 就是import语句的模块名，如属性名称是 `jquery`，表示应该排除 `import $ from 'jquery'` 中的 jquery 模块。
+value值则是模块导出的变量。
+参考[在.vue文件中引入第三方非NPM模块](https://segmentfault.com/a/1190000007020623#articleHeader1),[webpack externals 深入理解 - 不长写的日志 - SegmentFault 思否](https://segmentfault.com/a/1190000012113011)
+
+例如 js中导入lodash模块`import _ from 'lodash'`，那么对应的 externals写法是 `externals: { lodash: '_' }`
 
 ## tree shaking 不起作用
 
