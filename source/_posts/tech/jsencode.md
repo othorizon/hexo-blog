@@ -1,8 +1,8 @@
 ---
 title: js脚本混淆加密的神奇方法-把JavaScript 代码转为[]()!+字符-把 JavaScript 代码转为颜文字
 categories: tech
-date: 2018-03-21 22:17:09
-updated: 2018-03-21 22:17:09
+date: 2018-05-30 20:12:52
+updated: 2018-05-30 20:12:52
 tags: js
 description: 把 JavaScript 代码转为 []()!+ ，字符-把 JavaScript 代码转为颜文字
 ---
