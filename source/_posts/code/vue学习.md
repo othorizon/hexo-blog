@@ -19,3 +19,7 @@ description: vue学习过程中的积累
 参考 [webpack学习](/code/webpack学习/)
 [vue中的懒加载-Lazy Loading in Vue using Webpack's Code Splitting](https://alexjoverm.github.io/2017/07/16/Lazy-load-in-Vue-using-Webpack-s-code-splitting/)
 [懒加载 | webpack 中文网](https://www.webpackjs.com/guides/lazy-loading/)
+
+## vuex
+
+[Vuex | Vuex 是什么？](https://vuex.vuejs.org/zh/)
