@@ -1,15 +1,19 @@
 ---
 title: webpack学习
 categories: code
-tags: [webpack]
+tags: [code,webpack]
 date: 2018-05-29 20:21:40
 updated: 2018-05-29 20:21:40
-keywords:
+keywords: webpack
 description:
 ---
 webpack学习中遇到的问题
 
 - [webpack是什么](#webpack是什么)
+- [遇到的问题 踩坑](#遇到的问题-踩坑)
+- [技巧](#技巧)
+  - [ProvidePlugin插件](#provideplugin插件)
+  - [懒加载](#懒加载)
 - [开发环境和线上环境的配置文件分离](#开发环境和线上环境的配置文件分离)
   - [命令行传入参数](#命令行传入参数)
 - [external 外部扩展](#external-外部扩展)
@@ -31,6 +35,103 @@ webpack从命令行或配置文件中定义的*入口起点*开始，递归一�
 webpack 的配置文件(`webpack.config.js`)，是导出一个对象的 JavaScript 文件。通过该配置文件来实现各种打包参数的配置。
 
 通过webpack与npm的包管理，我们可以形成一套更加标准化的前端开发流程。
+
+## 遇到的问题 踩坑
+
+**webpack导致控制台不能获取变量**
+webpack打包会将全局变量封装到闭包内，因此访问不到的。可以将变量绑定到`window`对象。
+
+```javascript
+window.vm= new Vue({
+  data: {
+    count: 0,
+    name: '全局名称'
+  }
+})
+window['testVar']='testValue'
+//在浏览器控制台只要 输入 `vm`、`testVar` 既可以拿到对象
+```
+
+## 技巧
+
+### ProvidePlugin插件
+
+[ProvidePlugin | webpack 中文网](https://www.webpackjs.com/plugins/provide-plugin/)
+`webpack.ProvidePlugin`插件：不必import或require模块， 当调用的变量不存在时便会从模块加载。
+
+**注意这里不是懒加载，不是在调用的时候才加载，而是打包的时候便把模块引入了。**
+该插件只是用于省去每个地方都要写一遍import和require这件事。如果想要实现懒加载请查看[懒加载 | webpack 中文网](https://www.webpackjs.com/guides/lazy-loading/)
+
+示例
+
+```javascript
+ plugins: [
+    new webpack.ProvidePlugin({
+      globalModule: ['./globalModule.js'],
+    })]
+```
+
+CommonJs中的使用
+
+```javascript globalModule.js
+
+console.log("globalModule loaded")
+
+// commonjs中的默认导出写法1
+module.exports = "globalModule";
+// commonjs中的默认导出写法2
+module.exports = function(){
+        return "globalModule"
+    };
+// es2015/es6中的默认导出写法
+export default function () {
+    return "globalModule";
+}
+```
+
+```javascript index.js
+//调用代码
+//直接调用而无需 require或者 import
+// commonjs中调用默认导出
+console.log(globalModule())
+// es2015/es6中调用默认导出
+console.log(globalModule.default())
+```
+
+{% note warning %}
+对于 ES6/ES2015 模块的 default export，你必须显示指定模块的 default 属性`module.default`。
+[JS - CommonJS、ES2015、AMD、CMD模块规范对比与介绍（附样例）](http://www.hangge.com/blog/cache/detail_1686.html)
+{% endnote %}
+
+### 懒加载
+
+[懒加载 | webpack 中文网](https://www.webpackjs.com/guides/lazy-loading/)
+通过import方式导入模块存在的一个问题是，可能导入的模块只在一些特定的场景下才会使用，而有些时候并不会用到，
+如果直接import的方式（`import module from './module'`）会导致代码被执行，
+为了优化网页我们对此应该采取`懒加载的方式`。
+
+示例
+
+```javascript lazyModule.js
+console.log('loaded lazyModule');
+
+export default () => {
+  console.log('print hello_wolrd');
+}
+```
+
+```javascript index.js
+//懒加载，不要事先import而是在调用的地方import
+import('./lazyModule.js').then(module => {
+      var print = module.default;
+      print()
+    })
+```
+
+{% note info %}
+懒加载的import只会执行一次，
+通过示例可以看到：示例中的`import('./lazyModule.js')....`代码即使被多次重复执行，lazyModule.js文件中的`console.log('loaded lazyModule');`也只会在控制台打印一次
+{% endnote %}
 
 ## 开发环境和线上环境的配置文件分离
 
