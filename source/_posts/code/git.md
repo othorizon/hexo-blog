@@ -1,8 +1,8 @@
 ---
 title: git之路
-categories: tech
+categories: code
 date: 2018-03-21 22:17:09
-updated: 2018-03-21 22:17:09
+updated: 2018-06-01 11:59:20
 tags: git
 ---
 
