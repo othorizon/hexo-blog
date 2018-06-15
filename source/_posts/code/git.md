@@ -85,7 +85,7 @@ git remote set-url origin --push --add git@github.com:example/example.git
 
 ## git复制仓库
 
-Mirroring a repository
+Mirroring a repository [Duplicating a repository - Github User Documentation](https://help.github.com/articles/duplicating-a-repository/)
 1.Open Terminal.
 2.Create a bare clone of the repository.
 
