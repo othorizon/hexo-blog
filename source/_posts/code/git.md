@@ -8,6 +8,7 @@ tags: git
 
 - [git配置多个远程仓库](#git配置多个远程仓库)
 - [git的本地仓库和服务器仓库/裸库](#git的本地仓库和服务器仓库裸库)
+- [git复制仓库](#git复制仓库)
 
 <!-- more -->
 
@@ -79,3 +80,31 @@ git remote set-url origin --push --add git@github.com:example/example.git
 也可以理解为是服务器仓库，该仓库没有工作空间，也就是用户无法直接在该仓库编辑工作文件，只能通过clone下来后进行文件修改然后commit、push。
 所以`git init --bare`是创建一个git服务器的过程，`git clone --bare [projectUrl] newProjectRepo`则是克隆一个仓库作为新的服务器仓库/裸库（没有工作空间的仓库）的操作，
 测试`git clone [projectUrl] newProject`这样clone下来的是一个projectUrl的本地工作空间，
+
+---
+
+## git复制仓库
+
+Mirroring a repository
+1.Open Terminal.
+2.Create a bare clone of the repository.
+
+```bash
+git clone --bare https://github.com/exampleuser/old-repository.git
+```
+
+3.Mirror-push to the new repository.
+
+```bash
+cd old-repository.git
+git push --mirror https://github.com/exampleuser/new-repository.git
+```
+
+4.Remove the temporary local repository you created in step 1.
+
+```bash
+cd ..
+rm -rf old-repository.git
+```
+
+---
