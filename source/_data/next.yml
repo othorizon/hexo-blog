@@ -180,6 +180,7 @@ links_layout: block
 # links_layout: inline
 links:
   在线记事本: https://note.rizon.top/
+  DarkTime: https://book.rizon.top/
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
