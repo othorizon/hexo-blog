@@ -8,7 +8,7 @@ type: picture
 sticky: 100
 ---
 
-学习历程
+历程
 
 - 学习 Cocos Creator，并尝试开发微信小游戏
 - 搭建gitbook
@@ -22,5 +22,10 @@ sticky: 100
 - 学习 Vue.js
 - 学习webpack 2018.05.30
 - 将scriptbot的前端angularjs框架换成vue框架
+- **开始BI项目开发** 2018.07.01
+  - 学习hive、hadoop(hdfs)
+  - 调研presto、kylin
+  - 整合spring cloud
+- 深入学习docker并尝试应用docker在线上环境 2018.08.01
 
 <img src="https://ws1.sinaimg.cn/large/7dc65329ly1fpm40mq2hzj20k00avqch.jpg" \>
