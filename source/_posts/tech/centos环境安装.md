@@ -75,6 +75,17 @@ step7:启动 Docker 后台服务
 step8:测试运行 hello-world
 `docker run hello-world`
 
+**安装 docker-compose**
+
+官方文档：https://docs.docker.com/compose/install/
+step1:
+注意这里的版本号，最新版请从这里获取[Compose repository release page on GitHub](https://github.com/docker/compose/releases)
+`curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose`
+step2:添加可执行权限
+`chmod +x /usr/local/bin/docker-compose`
+
+`docker-compose --version`
+
 ## 安装nginx
 
 参考：https://www.jianshu.com/p/1cad13e57c43
