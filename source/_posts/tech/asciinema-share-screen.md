@@ -5,7 +5,7 @@ tags: [asciinema]
 date: 2018-09-01 03:52:22
 updated: 2018-09-01 03:52:22
 keywords: linux系统屏幕分享
-description:
+description: 借助asciinema 实现linux系统下的屏幕分享
 ---
 
 借助asciinema 实现linux系统下的屏幕分享
