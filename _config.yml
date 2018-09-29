@@ -87,9 +87,6 @@ deploy:
  - type: git
    repo: git@git.coding.net:rizon/hexo-blog-page.git
    branch: master
- - type: git
-   repo: git@ho.rizon.top:/home/git/hexo-blog/hexo.git
-   branch: master
  - type: baidu_url_submitter
 
 # search
