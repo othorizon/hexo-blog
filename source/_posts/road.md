@@ -16,12 +16,12 @@ sticky: 100
 - 学习 spring cloud 微服务架构 2018.02
 - 搭建hexo博客并调整代码实现客制化需求 2018.03
   - 开发hexo的插件满足客制化需求
-- 开发 scriptbot 脚本批处理程序 [ScriptBot](http://scriptbot.rizon.top) 2018.05.04
+- [ScriptBot](http://scriptbot.rizon.top) 开发 scriptbot 脚本批处理程序 2018.05.04
   - 学习使用 Amaze UI
   - 复习使用 AngularJS与jQuery
 - 学习 vue.js
 - 学习webpack 2018.05.30
-- 开发在线记事本 v2版 [notelive](http://notelive.cc)
+- [notelive.cc](https://notelive.cc) 开发在线记事本 v2版
 - 将scriptbot的前端angularjs框架换成vue框架
 - **开始BI项目开发** 2018.07.01
   - 学习hive、hadoop(hdfs)
