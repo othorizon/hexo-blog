@@ -16,7 +16,7 @@ sticky: 100
 - 学习 spring cloud 微服务架构 2018.02
 - 搭建hexo博客并调整代码实现客制化需求 2018.03
   - 开发hexo的插件满足客制化需求
-- 开发 scriptbot 脚本批处理程序 [Script Bot - 脚本批处理工具](http://scriptbot.rizon.top) 2018.05.04
+- 开发 scriptbot 脚本批处理程序 [ScriptBot](http://scriptbot.rizon.top) 2018.05.04
   - 学习使用 Amaze UI
   - 复习使用 AngularJS与jQuery
 - 学习 vue.js
