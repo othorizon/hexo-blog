@@ -28,5 +28,7 @@ sticky: 100
   - 调研presto、kylin
   - 整合spring cloud
 - [docker之路](/code/docker/docker/) 深入学习docker并尝试应用docker在线上环境 2018.08.01
+- 开发微信小程序 "PushYuu" 2018-12-13
+  - 学习python，使用Flask开发web服务
 
 <img src="https://ws1.sinaimg.cn/large/7dc65329ly1fpm40mq2hzj20k00avqch.jpg" \>
