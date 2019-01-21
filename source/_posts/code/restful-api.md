@@ -5,7 +5,7 @@ tags: [code,tool]
 date: 2019-01-21 22:03:46
 updated: 2019-01-21 22:03:46
 keywords: RESTful API
-description: RESTful API 设计规范概述
+description:
 ---
 
 - [RESTful API](#restful-api)
@@ -18,6 +18,7 @@ description: RESTful API 设计规范概述
   - [附加](#附加)
     - [常用状态码](#常用状态码)
 
+<!-- more -->
 
 # RESTful API
 
