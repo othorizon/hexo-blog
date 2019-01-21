@@ -2,8 +2,8 @@
 title: RESTful API 设计规范概述
 categories: code
 tags: [code,tool]
-date: 2018-03-28 22:49:28
-updated: 2018-03-28 22:49:28
+date: 2019-01-21 22:03:46
+updated: 2019-01-21 22:03:46
 keywords: RESTful API
 description: RESTful API 设计规范概述
 ---
