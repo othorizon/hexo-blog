@@ -16,7 +16,7 @@ sticky: 100
 - 学习 spring cloud 微服务架构 2018.02
 - 搭建hexo博客并调整代码实现客制化需求 2018.03
   - 开发hexo的插件满足客制化需求
-- [ScriptBot](http://scriptbot.rizon.top) 开发 scriptbot 脚本批处理程序 2018.05.04
+- ScriptBot 开发 scriptbot 脚本批处理程序 2018.05.04
   - 学习使用 Amaze UI
   - 复习使用 AngularJS与jQuery
 - 学习 vue.js
@@ -30,5 +30,7 @@ sticky: 100
 - [docker之路](/code/docker/docker/) 深入学习docker并尝试应用docker在线上环境 2018.08.01
 - 开发微信小程序 "PushYuu" 2018-12-13
   - 学习python，使用Flask开发web服务
+- 开始数据仓库的元数据管理项目开发 2019-1-1
+- [搭建札记](/tech/synology-nas-搭建)搭建群晖NAS系统 2019-2-16
 
 <img src="https://ws1.sinaimg.cn/large/7dc65329ly1fpm40mq2hzj20k00avqch.jpg" \>
