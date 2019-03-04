@@ -5,7 +5,7 @@ date: 2018-03-20 00:43:10
 
 [MAC Awesome 系列,MAC 工具推荐](/share/awesome-series)
 
-<script src="https://gist.rizon.top/othorizon/3fc35badb768dc431736e433f9b219f3.js"></script>
+<script src="https://embed.cacher.io/82543cd50a34a312fda214c7037819a62e0fab13.js?a=142ed0e4bce5432596baad4d8aca24f5"></script>
 
 ---
 
@@ -20,6 +20,4 @@ date: 2018-03-20 00:43:10
 
 ## 关于本页
 
-您现在看到的网址索引资源是存储在[公开gist](https://gist.github.com/othorizon/3fc35badb768dc431736e433f9b219f3)上的，欢迎大家补充。
-as you can see,本页是嵌入了gist渲染的代码，良心博主我做了反代**可以直接访问**👏。
-by the way,可以看博主的文章[解决dns污染导致域名解析失败](/tech/dns-host/)来解决gist访问不了的问题。
+您现在看到的网址索引资源是存储在[公开gist](https://gist.github.com/othorizon/3fc35badb768dc431736e433f9b219f3)上的，欢迎大家补充。如果需要，可以看博主的文章[解决dns污染导致域名解析失败](/tech/dns-host/)来通过host配置解决gist访问不了的问题。

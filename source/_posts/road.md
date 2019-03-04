@@ -31,6 +31,6 @@ sticky: 100
 - 开发微信小程序 "PushYuu" 2018-12-13
   - 学习python，使用Flask开发web服务
 - 开始数据仓库的元数据管理项目开发 2019-1-1
-- [搭建札记](/tech/synology-nas-搭建)搭建群晖NAS系统 2019-2-16
+- [搭建札记](/tech/synology-nas-搭建) 搭建群晖NAS系统 2019-2-16
 
 <img src="https://ws1.sinaimg.cn/large/7dc65329ly1fpm40mq2hzj20k00avqch.jpg" \>
