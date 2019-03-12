@@ -11,6 +11,7 @@ description:
 - [安装nodejs](#安装nodejs)
 - [安装docker (docker-ce)](#安装docker-docker-ce)
 - [安装nginx](#安装nginx)
+- [安装python](#安装python)
 
 <!-- more -->
 
@@ -118,3 +119,24 @@ step2:安装Nginx
 `yum install nginx`
 
 <script src="/assets/asciinema-player.js"></script>
+
+## 安装python
+
+1）在安装Python3.6之前，先安装Python3.6需要的依赖：
+
+```bash
+sudo yum -y groupinstall development
+sudo yum -y install zlib-devel
+```
+
+2）运行如下命令安装Python3.6
+下载包路径可以从官网 https://www.python.org/downloads/
+
+```bash
+wget https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tar.xz
+tar xJf Python-3.6.0.tar.xz
+cd Python-3.6.0
+sudo ./configure
+sudo make
+sudo make install
+```
