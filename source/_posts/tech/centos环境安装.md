@@ -3,7 +3,7 @@ title: centos常用环境安装
 categories: tech
 tags: [centos]
 date: 2018-08-31 20:57:28
-updated: 2018-08-31 20:57:28
+updated: 2019-03-12 23:26:20
 keywords: centos安装nodejs,centos安装docker
 description:
 ---
@@ -21,7 +21,9 @@ description:
 <asciinema-player src="/assets/asciinema/i_nodejs.cast" poster="data:text/plain,安装nodejs演示" cols="100" rows="24"/>
 
 参考：https://segmentfault.com/a/1190000007124759
-nodejs 官网：https://nodejs.org/en/download/package-manager/#enterprise-linux-and-fedora
+~~nodejs 官网：https://nodejs.org/en/download/package-manager/#enterprise-linux-and-fedora (已失效)~~
+最新版的centos安装nodejs说明 https://github.com/nodesource/distributions/blob/master/README.md
+
 `curl --silent --location https://rpm.nodesource.com/setup_8.x | bash -`
 `yum -y install nodejs`
 
