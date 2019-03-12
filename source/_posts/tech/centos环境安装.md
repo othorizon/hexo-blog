@@ -127,6 +127,9 @@ step2:安装Nginx
 ```bash
 sudo yum -y groupinstall development
 sudo yum -y install zlib-devel
+
+# 不安装libffi-devel会报错 报错ModuleNotFoundError: No module named '_ctypes'
+sudo yum -y install libffi-devel
 ```
 
 2）运行如下命令安装Python3.6
