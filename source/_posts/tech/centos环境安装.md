@@ -122,24 +122,4 @@ step2:安装Nginx
 
 ## 安装python
 
-1）在安装Python3.6之前，先安装Python3.6需要的依赖：
-
-```bash
-sudo yum -y groupinstall development
-sudo yum -y install zlib-devel
-
-# 不安装libffi-devel会报错 报错ModuleNotFoundError: No module named '_ctypes'
-sudo yum -y install libffi-devel
-```
-
-2）运行如下命令安装Python3.6
-下载包路径可以从官网 https://www.python.org/downloads/
-
-```bash
-wget https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tar.xz
-tar xJf Python-3.6.0.tar.xz
-cd Python-3.6.0
-sudo ./configure
-sudo make
-sudo make install
-```
+[Linux 安装python3.7.0 - 非真 - 博客园](https://www.cnblogs.com/yhongji/p/9383857.html)
