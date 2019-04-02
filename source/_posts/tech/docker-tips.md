@@ -8,11 +8,11 @@ keywords: docker使用技巧
 description:
 ---
 
-- [docker容器当作linux应用使用，docker run --rm的应用](#docker容器当作linux应用使用docker-run---rm的应用)
+- [docker容器当作linux应用使用 docker run --rm的应用](#docker容器当作linux应用使用-docker-run---rm的应用)
 
 <!-- more -->
 
-## docker容器当作linux应用使用，docker run --rm的应用
+## docker容器当作linux应用使用 docker run --rm的应用
 
 在linux系统中可以借助docker镜像来做程序，而不需要真的去安装程序。
 
