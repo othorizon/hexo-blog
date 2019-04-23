@@ -171,7 +171,7 @@ social_icons:
 # Usage: `permalink || title`
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the title and aria-label name.
-#github_banner: https://github.com/yourname || Follow me on GitHub
+github_banner: aHR0cHM6Ly9naXRodWIuY29tL290aG9yaXpvbg== || Follow me on GitHub
 
 # Blog rolls
 links_icon: link
@@ -180,6 +180,7 @@ links_layout: block
 # links_layout: inline
 links:
   在线记事本: https://notelive.cc/
+  在线流程图: https://notelive.cc/flow/
   DarkTime: https://book.rizon.top/
 
 # Sidebar Avatar

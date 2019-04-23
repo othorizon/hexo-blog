@@ -32,5 +32,7 @@ sticky: 100
   - 学习python，使用Flask开发web服务
 - 开始数据仓库的元数据管理项目开发 2019-1-1
 - [搭建札记](/tech/synology-nas-搭建) 搭建群晖NAS系统 2019-2-16
+- 升级在线记事本工具，增加了在线流程图 [flow @notelive.cc](http://notelive.cc/flow/) 2018.04.20
+- [学习kubernetes](/tech/kubernetes) 2018.04.22
 
 <img src="https://ws1.sinaimg.cn/large/7dc65329ly1fpm40mq2hzj20k00avqch.jpg" \>
