@@ -35,4 +35,4 @@ sticky: 100
 - 升级在线记事本工具，增加了在线流程图 [flow @notelive.cc](http://notelive.cc/flow/) 2018.04.20
 - [学习kubernetes](/tech/kubernetes) 2018.04.22
 
-<img src="https://ws1.sinaimg.cn/large/7dc65329ly1fpm40mq2hzj20k00avqch.jpg" \>
+<img src="/assets/images/road.jpg" \>
