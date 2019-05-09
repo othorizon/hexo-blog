@@ -12,6 +12,7 @@ description:
 - [安装docker (docker-ce)](#安装docker-docker-ce)
 - [安装nginx](#安装nginx)
 - [安装python](#安装python)
+- [centos相关](#centos相关)
 
 <!-- more -->
 
@@ -35,6 +36,11 @@ cnpm：https://npm.taobao.org/
 `npm install -g cnpm --registry=https://registry.npm.taobao.org`
   
 ## 安装docker (docker-ce)
+
+一键安装方式：  
+`curl -sSL https://get.docker.com/ | sh`  
+
+手动安装：  
 
 <asciinema-player src="/assets/asciinema/i_docker.cast" poster="data:text/plain,安装docker演示" cols="100" rows="24"/>
 
@@ -77,6 +83,11 @@ step7:启动 Docker 后台服务
 `systemctl start docker`
 step8:测试运行 hello-world
 `docker run hello-world`
+
+**docker in docker**
+
+[centos7-dind-node](https://hub.docker.com/r/cubedhost/centos7-dind-node)
+[Docker in Docker dind](https://hub.docker.com/r/jpetazzo/dind/dockerfile)
 
 **安装 docker-compose**
 
@@ -123,3 +134,39 @@ step2:安装Nginx
 ## 安装python
 
 [Linux 安装python3.7.0 - 非真 - 博客园](https://www.cnblogs.com/yhongji/p/9383857.html)
+
+## centos相关
+
+安装epel第三方源
+
+```bash
+yum install epel-release
+yum update
+```
+
+安装bash-completion
+
+```bash
+#yum install epel-release  
+yum install bash-completion
+```
+
+[centos7修改系统语言为简体中文](https://www.cnblogs.com/li5206610/p/7828618.html)
+
+```bash
+# 当前
+locale
+# 全部
+locale -a
+# 设置 修改完成之后并不会立刻生效，必须重启之后才会生效。
+localectl  set-locale LANG=en_US.UTF8
+```
+
+设置hostname
+
+```bash
+#临时设置
+hostname myhostname
+#永久设置
+hostnamectl set-hostname myhostname
+```
