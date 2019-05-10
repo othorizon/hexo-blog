@@ -28,9 +28,9 @@ sticky: 100
   - 调研presto、kylin
   - 整合spring cloud
 - [docker之路](/code/docker/docker/) 深入学习docker并尝试应用docker在线上环境 2018.08.01
-- 开发微信小程序 "PushYuu" 2018-12-13
+- 开发微信小程序 "PushYuu" 2018.12.13
   - 学习python，使用Flask开发web服务
-- 开始数据仓库的元数据管理项目开发 2019-1-1
+- 开始数据仓库的元数据管理项目开发 2019.01.01
 - [搭建札记](/tech/synology-nas-搭建) 搭建群晖NAS系统 2019.02.16
 - 升级在线记事本工具，增加了在线流程图 [flow @notelive.cc](http://notelive.cc/flow/) 2019.04.20
 - [学习kubernetes](/tech/kubernetes) 2019.04.22
