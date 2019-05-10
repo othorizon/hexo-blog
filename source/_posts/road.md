@@ -32,7 +32,7 @@ sticky: 100
   - 学习python，使用Flask开发web服务
 - 开始数据仓库的元数据管理项目开发 &emsp;<span style="color: grey">2019.01.01</span>
 - [搭建札记](/tech/synology-nas-搭建) 搭建群晖NAS系统 &emsp;<span style="color: grey">2019.02.16</span>
-- 升级在线记事本工具，增加了在线流程图 [flow @notelive.cc](http://notelive.cc/flow/) &emsp;<span style="color: grey">2019.04.20</span>
+- 升级在线记事本工具，增加了在线流程图 [flow @notelive.cc](https://notelive.cc/flow/) &emsp;<span style="color: grey">2019.04.20</span>
 - [学习kubernetes](/tech/kubernetes) &emsp;<span style="color: grey">2019.04.22</span>
 
 <img src="/assets/images/road.jpg" \>
